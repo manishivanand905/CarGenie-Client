@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://cargenie-server-1.onrender.com";
+const BASE_URL = "https://cargenie-server-4ftd.onrender.com";
 
 const api = axios.create({
   baseURL: BASE_URL,
