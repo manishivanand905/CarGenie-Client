@@ -1,0 +1,135 @@
+export const currentUser = {
+  id: "user123",
+  name: "Alex Johnson",
+  email: "alex.johnson@example.com",
+  avatar: null,
+  joinDate: "2023-05-15T00:00:00Z",
+  preferences: {
+    notifications: true,
+    newsletter: false,
+    darkMode: true,
+  },
+};
+
+export const reviewsData = [
+  {
+    id: "review-001",
+    userId: "user123",
+    userName: "Alex Johnson",
+    userAvatar: null,
+    carModel: "Tesla Model 3",
+    content:
+      "The Tesla Model 3 offers excellent performance and range. The autopilot feature works surprisingly well on highways, though it still requires attention. Charging infrastructure has improved significantly over the last year, making long trips much more convenient. Interior is minimalist but functional, though some might prefer more physical controls. Overall, a great electric vehicle that balances performance, technology and practicality.",
+    rating: 5,
+    createdAt: "2024-02-01T08:30:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-002",
+    userId: "user456",
+    userName: "Sarah Miller",
+    userAvatar: null,
+    carModel: "BMW i4",
+    content:
+      "The BMW i4 combines the luxury and driving dynamics BMW is known for with electric power. The range is decent, though not class-leading. Interior quality is excellent with intuitive controls. The regenerative braking system takes some getting used to but works well once you adapt to it. Would recommend to anyone looking for a premium electric sedan.",
+    rating: 4,
+    createdAt: "2024-01-25T14:15:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-003",
+    userId: "user789",
+    userName: "Michael Chen",
+    userAvatar: null,
+    carModel: "Ford Mustang Mach-E",
+    content:
+      "The Mustang Mach-E is a controversial name choice but a solid EV. Performance is good, especially in GT trim. The infotainment system occasionally lags, which is frustrating. Rear seat space is adequate but not generous. Range anxiety hasn't been an issue for daily driving, but longer trips require planning. Ford has done a commendable job for their first dedicated EV platform.",
+    rating: 4,
+    createdAt: "2024-01-20T11:45:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-004",
+    userId: "user123",
+    userName: "Alex Johnson",
+    userAvatar: null,
+    carModel: "Toyota RAV4 Prime",
+    content:
+      "The RAV4 Prime offers the best of both worlds - electric range for daily commutes and hybrid efficiency for longer trips. No range anxiety but still excellent fuel economy. The electric-only range of 42 miles covers most of my daily driving. Acceleration is surprisingly quick for a crossover. Infotainment system feels dated compared to competitors. Toyota reliability has been excellent so far.",
+    rating: 5,
+    createdAt: "2023-12-15T09:20:00Z",
+    updatedAt: "2024-01-10T16:30:00Z",
+  },
+  {
+    id: "review-005",
+    userId: "user321",
+    userName: "Jessica Williams",
+    userAvatar: null,
+    carModel: "Hyundai Ioniq 5",
+    content:
+      "The Ioniq 5 has futuristic styling that turns heads. Fast charging capability is impressive - 10% to 80% in about 18 minutes with a 350kW charger. The flexible interior space with sliding center console is innovative. Ride comfort is good but not great on rougher roads. Some of the touch controls can be frustrating to use while driving. Overall, a forward-thinking EV with practical features.",
+    rating: 4,
+    createdAt: "2024-01-05T13:10:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-006",
+    userId: "user654",
+    userName: "David Rodriguez",
+    userAvatar: null,
+    carModel: "Kia EV6",
+    content:
+      "The Kia EV6 shares a platform with the Ioniq 5 but has sportier handling. The augmented reality head-up display is genuinely useful. Rear seat space is good but the sloping roofline impacts headroom for taller passengers. The vehicle-to-load feature that lets you power external devices has been surprisingly useful during power outages. Software updates have continuously improved the experience.",
+    rating: 5,
+    createdAt: "2023-12-28T15:40:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-007",
+    userId: "user123",
+    userName: "Alex Johnson",
+    userAvatar: null,
+    carModel: "Audi e-tron GT",
+    content:
+      "The e-tron GT combines stunning design with impressive performance. Interior quality is outstanding with high-quality materials throughout. The dual-motor setup provides excellent traction in all conditions. Range is adequate but not class-leading. The price is high, but you get what you pay for in terms of luxury and technology. Charging network could be better - Tesla still has the advantage here.",
+    rating: 4,
+    createdAt: "2023-11-18T10:05:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-008",
+    userId: "user987",
+    userName: "Emily Thompson",
+    userAvatar: null,
+    carModel: "Rivian R1T",
+    content:
+      "The Rivian R1T is an impressive first product from a new company. The quad-motor setup provides amazing off-road capability. The gear tunnel and other storage solutions are genuinely useful innovations. Range while towing is significantly reduced, which is expected but worth noting. Software has improved dramatically since launch. A few build quality issues with early production, but Rivian service has been responsive.",
+    rating: 4,
+    createdAt: "2024-01-30T16:25:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-009",
+    userId: "user741",
+    userName: "Robert Kim",
+    userAvatar: null,
+    carModel: "Lucid Air",
+    content:
+      "The Lucid Air Dream Edition has the best range of any EV I've tested - over 500 miles in real-world driving. Performance is breathtaking with instant acceleration. Interior materials and build quality rival established luxury brands. The three-screen setup has a learning curve but works well once you're familiar with it. Charging speed is exceptional. The price is high, but this represents the cutting edge of EV technology.",
+    rating: 5,
+    createdAt: "2023-12-05T08:55:00Z",
+    updatedAt: null,
+  },
+  {
+    id: "review-010",
+    userId: "user852",
+    userName: "Amanda Foster",
+    userAvatar: null,
+    carModel: "Chevrolet Bolt EUV",
+    content:
+      "The Bolt EUV offers good value for money in the EV space. Super Cruise driver assistance works well on compatible highways. Range is sufficient for daily use but not great for road trips. The interior is spacious for the vehicle's size but uses some cheaper materials. Infotainment system is responsive and intuitive. Charging speed is notably slower than newer EVs, which can be limiting for longer journeys.",
+    rating: 3,
+    createdAt: "2024-01-12T12:35:00Z",
+    updatedAt: null,
+  },
+];
